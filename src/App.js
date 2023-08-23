@@ -5,7 +5,7 @@ import Pokemon from './components/Pokemon';
 function App() {
   return (
     <div className="App">
-      <PokemonSelector/>
+      <Pokemon pokemonname='charmander'/>
     </div>
   );
 }

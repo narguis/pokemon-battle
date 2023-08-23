@@ -1,3 +1,13 @@
+@font-face {
+  font-family: BlackAndWhite;
+  src: url(pokemon-b-w.ttf);
+}
+
+* {
+  font-family: BlackAndWhite;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,17 +22,10 @@ code {
     monospace;
 }
 
-
-#SelectionScreen{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  display: flex;
-}
-
-.Selector{
-  width: 300px;
-  height: 100px;
+#title{
+  font-size: 5vh;
+  padding-top: 10vh;
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 60px;
 }

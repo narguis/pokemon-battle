@@ -1,5 +1,6 @@
-function Pokemon({pokemonname}){
 
+
+function Pokemon({pokemonname}){
     let all_pokemon = [
         {name: 'Charmander',
         types: ['fire'],
