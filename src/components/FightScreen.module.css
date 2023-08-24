@@ -4,3 +4,23 @@
     align-items: center;
     justify-content: space-between;
 }
+
+#MoveButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    width: 180px;
+    height: 80px;
+    font-size: 2rem;
+    position: relative;
+}
+
+#MoveButton:hover{
+    transform: scale(.96)
+}
+
+#EnemyMoves, #YourMoves{
+    display: flex;
+}

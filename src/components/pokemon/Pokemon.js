@@ -49,7 +49,7 @@ function Pokemon({pokemonname}){
             <h1>{pokemon.name}</h1>
             <img src={pokemon.img} height='300' width='300' className='pokemonimg' alt={pokemon.name} objectfit='cover'></img>
             <p>{types_html}</p>
-            <progress value='100' max={pokemon.hp} accent-color="red"></progress>
+            <progress value='100' max={pokemon.hp}></progress>
         </div>
     )
 }
